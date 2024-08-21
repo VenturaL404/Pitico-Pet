@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+p.box {
+    width: 20%;
+    height: 10%;
+    border: 1px solid rgb(189, 114, 0);
+    border-radius: 20px;
+    background-color: rgb(255, 200, 116);
+    padding: 20px;
+    position: relative;
+    top: 0%;
+    right: -8%
+}
+p.box2 {
+    width: 20%;
+    height: 10%;
+    border: 1px solid rgb(189, 114, 0);
+    border-radius: 20px;
+    background-color: rgb(255, 200, 116);
+    padding: 20px;
+    position: relative;
+    top: 30%;
+    right: -70%
+}
+
+h1 {
+    display: block;
+    background-color: rgb(220, 187, 79);
+    padding-left: 44%;
+    position: sticky;
+    top: 0;
+}
+body {
+    font-family: sans-serif;
+    background-image: linear-gradient(rgb(255, 255, 255),rgb(204, 102, 0))
+    
+}
+
+p.box3{
+    width: 80%;
+    height: 10%;
+    border: 1px solid rgb(196, 132, 37);
+    border-radius: 20px;
+    background-color: rgb(255, 212, 148);
+    padding: 20px;
+    position: relative;
+    top: 30%;
+    right: -8.5%
+}
