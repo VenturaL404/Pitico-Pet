@@ -3,9 +3,9 @@
 p.box {
     width: 20%;
     height: 10%;
-    border: 1px solid rgb(189, 114, 0);
+    border: 1px solid rgb(0, 64, 64);
     border-radius: 20px;
-    background-color: rgb(255, 200, 116);
+    background-color: rgb(43, 162, 162);
     padding: 20px;
     position: relative;
     top: 0%;
@@ -14,13 +14,13 @@ p.box {
 p.box2 {
     width: 20%;
     height: 10%;
-    border: 1px solid rgb(189, 114, 0);
+    border: 1px solid rgb(0, 64, 64);
     border-radius: 20px;
-    background-color: rgb(255, 200, 116);
+    background-color: rgb(43, 162, 162);
     padding: 20px;
     position: relative;
-    top: 30%;
-    right: -70%
+    top: -150%;
+    right: -69%
 }
 
 h1 {
@@ -39,11 +39,35 @@ body {
 p.box3{
     width: 80%;
     height: 10%;
-    border: 1px solid rgb(196, 132, 37);
+    border: 1px solid rgb(0, 64, 64);
     border-radius: 20px;
-    background-color: rgb(255, 212, 148);
+    background-color: rgb(43, 162, 162);
     padding: 20px;
     position: relative;
     top: 30%;
     right: -8.5%
+}
+
+p.box01 {
+    width: 20%;
+    height: 10%;
+    border: 1px solid rgb(0, 64, 64);
+    border-radius: 20px;
+    background-color: rgb(43, 162, 162);
+    padding: 20px;
+    position: relative;
+    top: 0%;
+    right: -17%
+}
+
+p.box011 {
+    width: 20%;
+    height: 10%;
+    border: 1px solid rgb(0, 64, 64);
+    border-radius: 20px;
+    background-color: rgb(43, 162, 162);
+    padding: 20px;
+    position: relative;
+    top: 0%;
+    right: -69%
 }
