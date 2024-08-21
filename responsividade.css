@@ -1,6 +1,24 @@
 @charset "UTF-8";
 
-p.box {
+button{
+    width: 3%;
+    height: 6%;
+    opacity: 0;
+    background-color: none;
+    border-radius: 20px;
+    position: absolute;
+    top: 8%;
+    right: 46.7%;
+    cursor: pointer;
+}
+
+div#piticoft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p#box {
     width: 20%;
     height: 10%;
     border: 1px solid rgb(0, 64, 64);
@@ -11,63 +29,186 @@ p.box {
     top: 0%;
     right: -8%
 }
-p.box2 {
+p#box2 {
     width: 20%;
     height: 10%;
     border: 1px solid rgb(0, 64, 64);
     border-radius: 20px;
     background-color: rgb(43, 162, 162);
     padding: 20px;
-    position: relative;
-    top: -150%;
-    right: -69%
+    padding-bottom: 40px;
+    position: absolute;
+    top: 41%;
+    right: 8.5%
 }
 
 h1 {
     display: block;
-    background-color: rgb(220, 187, 79);
+    background-color: rgb(184, 37, 42);
     padding-left: 44%;
     position: sticky;
     top: 0;
 }
 body {
     font-family: sans-serif;
-    background-image: linear-gradient(rgb(255, 255, 255),rgb(204, 102, 0))
+    background-image: linear-gradient(105deg, rgb(181, 101, 73),rgb(255, 102, 0));
     
 }
 
-p.box3{
-    width: 80%;
-    height: 10%;
+p#box3{
+    width: 91%;
+    height: 5%;
     border: 1px solid rgb(0, 64, 64);
     border-radius: 20px;
     background-color: rgb(43, 162, 162);
     padding: 20px;
-    position: relative;
-    top: 30%;
-    right: -8.5%
+    padding-bottom: 6px;
+    position: absolute;
+    top: 145%;
+    right: 5%
 }
 
-p.box01 {
+p#box01 {
+    width: 20%;
+    height: 18%;
+    border: 1px solid rgb(0, 64, 64);
+    border-radius: 20px;
+    background-color: rgb(43, 162, 162);
+    padding: 20px;
+    position: absolute;
+    top: 63%;
+    right: 57.5%
+}
+
+p#box011 {
     width: 20%;
     height: 10%;
     border: 1px solid rgb(0, 64, 64);
     border-radius: 20px;
     background-color: rgb(43, 162, 162);
     padding: 20px;
-    position: relative;
-    top: 0%;
-    right: -17%
+    padding-bottom: 35px;
+    position: absolute;
+    top: 65%;
+    right: 20%
 }
 
-p.box011 {
-    width: 20%;
-    height: 10%;
+div#centro{
+    
+    position:absolute;
+    top: 92%;
+    right: 30%;
+}
+
+div#fotohis{
+    position: absolute;
+    top: 170%;
+    right: 40%;
+}
+
+h2#historia{
+    width: 100px;
+    height: 30px;
     border: 1px solid rgb(0, 64, 64);
-    border-radius: 20px;
     background-color: rgb(43, 162, 162);
-    padding: 20px;
-    position: relative;
-    top: 0%;
-    right: -69%
+    border-radius: 20px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 15px;
+    position: absolute;
+    top: 158%;
+    right: 45%;
+}
+
+div#hp1{
+    
+    width: 40%;
+    height: 20%;
+    border: 1px solid rgb(0, 64, 64);
+    background-color: rgb(43, 162, 162);
+    border-radius: 20px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 15px;
+    position: absolute;
+    top: 215%;
+    right: 30%;
+}
+div#hp2{
+
+    width: 40%;
+    height: 20%;
+    border: 1px solid rgb(0, 64, 64);
+    background-color: rgb(43, 162, 162);
+    border-radius: 20px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 15px;
+    position: absolute;
+    top: 245%;
+    right: 30%;
+}
+div#hp3{
+    width: 40%;
+    height: 20%;
+    border: 1px solid rgb(0, 64, 64);
+    background-color: rgb(43, 162, 162);
+    border-radius: 20px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 15px;
+    position: absolute;
+    top: 275%;
+    right: 30%;
+
+}
+div#hp4{
+    width: 40%;
+    height: 25%;
+    border: 1px solid rgb(0, 64, 64);
+    background-color: rgb(43, 162, 162);
+    border-radius: 20px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 15px;
+    position: absolute;
+    top: 305%;
+    right: 30%;
+
+}
+
+h2#diferenciais{
+    width: 40%;
+    height: 5%;
+    border: 1px solid rgb(0, 64, 64);
+    background-color: rgb(43, 162, 162);
+    border-radius: 20px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 15px;
+    position: absolute;
+    top: 335%;
+    right: 30%;
+}
+
+div#dif{
+
+    width: 40%;
+    height: 37%;
+    border: 1px solid rgb(0, 64, 64);
+    background-color: rgb(43, 162, 162);
+    border-radius: 20px;
+    padding-bottom: 5px;
+    padding-top: 20px;
+    padding-right: 5px;
+    padding-left: 15px;
+    position: absolute;
+    top: 345%;
+    right: 30%;
 }
