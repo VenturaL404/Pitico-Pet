@@ -31,15 +31,15 @@ p#box {
 }
 p#box2 {
     width: 20%;
-    height: 10%;
+    height: auto;
     border: 1px solid rgb(0, 64, 64);
     border-radius: 20px;
     background-color: rgb(43, 162, 162);
     padding: 20px;
-    padding-bottom: 40px;
+    padding-bottom: auto;
     position: absolute;
-    top: 41%;
-    right: 8.5%
+    top: 46.5%;
+    right: 17%;
 }
 
 h1 {
@@ -57,46 +57,47 @@ body {
 
 p#box3{
     width: 91%;
-    height: 5%;
+    height: auto;
     border: 1px solid rgb(0, 64, 64);
     border-radius: 20px;
     background-color: rgb(43, 162, 162);
     padding: 20px;
     padding-bottom: 6px;
     position: absolute;
-    top: 145%;
+    top: 151%;
     right: 5%
 }
 
 p#box01 {
     width: 20%;
-    height: 18%;
+    height: auto;
     border: 1px solid rgb(0, 64, 64);
     border-radius: 20px;
     background-color: rgb(43, 162, 162);
     padding: 20px;
+    padding-bottom: 20px;
     position: absolute;
-    top: 63%;
-    right: 57.5%
+    top: 68%;
+    right: 68.5%
 }
 
 p#box011 {
     width: 20%;
-    height: 10%;
+    height: auto;
     border: 1px solid rgb(0, 64, 64);
     border-radius: 20px;
     background-color: rgb(43, 162, 162);
     padding: 20px;
-    padding-bottom: 35px;
+    padding-bottom: 20px;
     position: absolute;
-    top: 65%;
-    right: 20%
+    top: 70%;
+    right: 17%
 }
 
 div#centro{
     
     position:absolute;
-    top: 92%;
+    top: 93%;
     right: 30%;
 }
 
@@ -108,7 +109,7 @@ div#fotohis{
 
 h2#historia{
     width: 100px;
-    height: 30px;
+    height: auto;
     border: 1px solid rgb(0, 64, 64);
     background-color: rgb(43, 162, 162);
     border-radius: 20px;
@@ -117,14 +118,14 @@ h2#historia{
     padding-right: 5px;
     padding-left: 15px;
     position: absolute;
-    top: 158%;
+    top: 161%;
     right: 45%;
 }
 
 div#hp1{
     
     width: 40%;
-    height: 20%;
+    height: auto;
     border: 1px solid rgb(0, 64, 64);
     background-color: rgb(43, 162, 162);
     border-radius: 20px;
@@ -139,7 +140,7 @@ div#hp1{
 div#hp2{
 
     width: 40%;
-    height: 20%;
+    height: auto;
     border: 1px solid rgb(0, 64, 64);
     background-color: rgb(43, 162, 162);
     border-radius: 20px;
@@ -153,7 +154,7 @@ div#hp2{
 }
 div#hp3{
     width: 40%;
-    height: 20%;
+    height: auto;
     border: 1px solid rgb(0, 64, 64);
     background-color: rgb(43, 162, 162);
     border-radius: 20px;
@@ -168,7 +169,7 @@ div#hp3{
 }
 div#hp4{
     width: 40%;
-    height: 25%;
+    height: auto;
     border: 1px solid rgb(0, 64, 64);
     background-color: rgb(43, 162, 162);
     border-radius: 20px;
@@ -184,7 +185,7 @@ div#hp4{
 
 h2#diferenciais{
     width: 40%;
-    height: 5%;
+    height: auto;
     border: 1px solid rgb(0, 64, 64);
     background-color: rgb(43, 162, 162);
     border-radius: 20px;
@@ -193,22 +194,22 @@ h2#diferenciais{
     padding-right: 5px;
     padding-left: 15px;
     position: absolute;
-    top: 335%;
+    top: 353%;
     right: 30%;
 }
 
 div#dif{
-
+    text-wrap: wrap;
     width: 40%;
-    height: 37%;
+    height: auto;
     border: 1px solid rgb(0, 64, 64);
     background-color: rgb(43, 162, 162);
     border-radius: 20px;
     padding-bottom: 5px;
-    padding-top: 20px;
+    padding-top: 10px;
     padding-right: 5px;
     padding-left: 15px;
     position: absolute;
-    top: 345%;
+    top: 365%;
     right: 30%;
 }
